@@ -1,0 +1,39 @@
+*{margin:0;padding:0;box-sizing:border-box}
+.container{
+    max-width: 800px;
+    margin : 0 auto;
+}
+.game{
+    margin: 100px 200px;
+    width: 400px;
+    height: 400px;
+}
+.game {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-columns: 100px;
+}
+.game img{ width: 32px; height: 32px;}
+.game .item{
+    display: none;
+}
+.shake{
+    animation : shake .5s ease-in;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(-20px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform : translateX(-10px);
+    }
+    75%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
