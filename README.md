@@ -1,4 +1,2 @@
-# js-memory-game
-Javascript memory game with 8 pairs 16 card deck
+<h4>Javascript memory game with 8 pairs 16 card deck </h4>
 
-Live Demo : https://nihatxss.github.io/js-memory-game/
